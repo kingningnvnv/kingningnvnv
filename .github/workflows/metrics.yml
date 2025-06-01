@@ -12,7 +12,6 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: ${{ github.repository_owner }}
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Shanghai
           plugin_languages: yes
