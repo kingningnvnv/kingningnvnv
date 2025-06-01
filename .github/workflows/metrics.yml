@@ -12,7 +12,6 @@ jobs:
         with:
           filename: metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          plugin_languages: yes
           plugin_achievements: yes
           plugin_lines: yes
 
